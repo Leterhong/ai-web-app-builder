@@ -1,0 +1,16 @@
+:root {
+  --background: 222 47% 5%;      /* 深空黑 */
+  --foreground: 210 40% 96%;
+  --muted: 217 33% 17%;
+  --muted-foreground: 215 20% 65%;
+  --primary: 199 89% 48%;        /* 蓝 */
+  --accent: 152 60% 45%;         /* 绿 */
+  --danger: 0 72% 51%;           /* 红 */
+}
+* { box-sizing: border-box; }
+html, body {
+  padding: 0;
+  margin: 0;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
